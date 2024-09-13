@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;700&display=swap');
+
+*{
+    box-zising: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Gupter", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: red; /*rojo, obvio, los locust tumbaron a la cgo y la guevara se les unio, tipico*/
+}
+
+.header{background-color: darkred;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 125px;
+padding: 5px 10%;
+}
+
+.header .logo {
+    cursor: -webkit-grab;
+}
+
+.header .logo img{
+    height: 90px;
+    width: 90px;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform:scale(1.1); 
+}
+.header .nav-links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+display: inline-block;
+padding: 0.20px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1; 
+    padding: 20px;
+    background-color: #c70a0a;
+}
+
+.footer .logo img:hover {
+transform: scale(1.05);
+transition: all 0.2s;
+}
+
+.footer .logo {
+    cursor: pointer;
+}
+
+.footer{
+    background-color: maroon;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        color: #fff;
+        height: auto;
+     }
